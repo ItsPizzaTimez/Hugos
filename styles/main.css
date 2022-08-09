@@ -1,0 +1,31 @@
+html {
+    --white-color: #efe9e7f5;
+    --grey-color: #312F2F;
+    --transparent-white-color: #efe9e751;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.3em;
+}
+
+@keyframes grow-up {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes grow-out {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+    }
+}
